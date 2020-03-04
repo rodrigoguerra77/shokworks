@@ -1,0 +1,38 @@
+/* Generals */
+.text-capitalize {
+    text-transform: capitalize;
+}
+
+.btn-gradient-blue{
+    background: transparent linear-gradient(248deg, #1B92C8 0%, #2C3636 100%) 0% 0% no-repeat padding-box;
+    opacity: 1;
+    color: #fff;
+    text-transform: capitalize;
+}
+
+.btn-gradient-blue:hover {
+    background: #fff;
+    border: 1px solid #185F7F;
+    opacity: 1;
+    color: #185F7F;
+    text-transform: capitalize;
+}
+
+.btn-border-blue {
+    border: 1px solid #185F7F;
+    opacity: 1;
+    color: #185F7F;
+    text-transform: capitalize;
+}
+
+.btn-border-blue:hover {
+    background: transparent linear-gradient(248deg, #1B92C8 0%, #2C3636 100%) 0% 0% no-repeat padding-box;
+    opacity: 1;
+    color: #fff;
+    text-transform: capitalize;
+}
+
+/* imgs */
+.img-md {
+    max-width: 400px;
+}
