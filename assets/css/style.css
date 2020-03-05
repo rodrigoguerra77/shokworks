@@ -114,3 +114,10 @@ li {
     color: #000 !important;
     background: #fff !important;
 }
+
+@media only screen and (max-width: 500px) {
+    .owl-item.active {
+        transform: translate3d(0px, 0px, 0px) scale(1) !important;
+        filter: blur(0px);
+    }
+  }
